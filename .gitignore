@@ -1,0 +1,35 @@
+# Datos — NO subir al repositorio
+data/
+dataset/
+*.csv
+*.jsonl
+*.parquet
+Prueba_Tecnica_Datos_DonDoctor.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
