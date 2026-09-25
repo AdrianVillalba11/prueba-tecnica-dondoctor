@@ -21,6 +21,14 @@
 - **Video:** La grabación y explicación del video E6 son enteramente propias.
 - **Ejecución:** Todos los scripts fueron ejecutados localmente sobre los datos reales del piloto. Los resultados (métricas, gráficas, hallazgos) provienen de la ejecución real, no fueron fabricados.
 
+## Ejemplo de algo que la IA propuso y corregí
+
+Para el modelo predictivo (E5), la IA propuso un conjunto de modelos y configuraciones iniciales. Revisé la propuesta, seleccioné los modelos que tenían sentido para el problema (Regresión Logística como base y Gradient Boosting como alternativa) y descarté los que no aportaban dado el volumen de datos y la naturaleza del problema. La decisión de qué modelos usar y cómo configurarlos fue mía.
+
+## Ejemplo de algo que resolví sin IA
+
+El proceso de limpieza de datos (E4) lo definí yo: identifiqué qué transformaciones aplicar, en qué orden y con qué criterio. La lógica de negocio detrás de cada corrección (cómo tratar las edades anómalas, qué hacer con los duplicados, cómo marcar las anomalías temporales) viene de entender el dominio, no de una sugerencia de la IA. La IA no aporta en decidir si una edad de 999 debe ser nula o imputada, eso requiere conocer el contexto clínico.
+
 ## Nivel de intervención humana
 
 Todas las decisiones de diseño, arquitectura y análisis fueron revisadas, cuestionadas y validadas antes de incorporarse. El código generado fue revisado, modificado cuando fue necesario, y ejecutado para verificar resultados. La IA fue una herramienta de productividad, no un sustituto del criterio profesional.
