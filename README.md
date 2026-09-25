@@ -1,4 +1,4 @@
-# Prueba Técnica — Líder e Ingeniero de Datos | DonDoctor
+# Prueba Técnica — Líder e Ingeniero de Datos | dondoctor
 
 Análisis de ausentismo en citas médicas para tres IPS clientes, con diagnóstico de calidad de datos, pipeline de transformación, modelo predictivo y propuesta de arquitectura en Azure/Fabric.
 
